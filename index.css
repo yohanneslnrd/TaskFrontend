@@ -1,0 +1,336 @@
+body{
+    background-color: #ecf1f7;
+    margin: 0px 0px;
+}
+
+        /* bagian header */
+header{
+    background: white;
+    align-items: center;
+    display: flex;
+    justify-content:center ;
+    border-bottom: 1px solid whitesmoke;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.navlogo img{ 
+    width: auto;
+    height: 50px;
+}
+
+.navmenu{
+    display: flex;
+    justify-content:space-between ;
+}
+
+.navmenu-list{
+    margin: 0px 15px;
+}
+
+.navsearch{
+    margin-left: 5px;
+    border: 1px solid whitesmoke;
+    border-radius: 5%;
+    background-color: transparent;
+    padding: 10px 10px;
+}
+
+.navsearch input{
+    border: none;
+    outline: none;
+}
+
+        /* bagian section */
+
+.konten{
+    display: flex;
+    justify-content:center ;
+}
+
+                /* leftside */
+
+.sort{
+    margin-right: 10px;
+}
+
+.sortUp{
+    background-color: white;
+    border-bottom: 1px solid whitesmoke;
+    margin-top: 15px;
+    margin-bottom: 0px;
+    border-top-left-radius: 5%;
+    border-top-right-radius: 5%;
+}
+.sortUp h4{
+    padding: 12px 12px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+.sortUp p{
+    padding: 0px 12px;
+    margin-top: 0px;
+    color: silver;
+}
+.sortDown{
+    background-color: white;
+    margin-top: 0px;
+    border-bottom-left-radius: 3%;
+    border-bottom-right-radius: 3%;
+    display: flex;
+    justify-content: space-between;
+    padding: 12px 12px;
+}
+
+.sortDown input{
+    margin-bottom: 15px;
+}
+
+.sortDownPrice{
+    margin-right: 20px;
+}
+
+.filter{
+    width: 300px;
+    margin-right: 10px;
+}
+
+.filterUp{
+    background-color: white;
+    border-bottom: 1px solid whitesmoke;
+    margin-top: 15px;
+    margin-bottom: 0px;
+    border-top-left-radius: 5%;
+    border-top-right-radius: 5%;
+}
+.filterUp h4{
+    padding: 12px 12px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+.filterUp p{
+    padding: 0px 12px;
+    margin-top: 0px;
+    color: silver;
+}
+
+.filterMid{
+    background-color: white;
+    border-bottom: 1px solid whitesmoke;
+    margin-bottom: 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.filterMid p{
+    padding: 12px 12px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    color: black;
+}
+.filterMid i{
+    padding-right: 12px;
+}
+
+.filterDown{
+    background-color: white;
+    margin-bottom: 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom-left-radius: 5%;
+    border-bottom-right-radius: 5%;
+}
+.filterDown p{
+    padding: 12px 12px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    color: black;
+}
+.filterDown i{
+    padding-right: 12px;
+}
+
+.question{
+    width: 300px;
+}
+
+.questiontitle{
+    font-weight: bold;
+}
+
+.questionlist{
+    font-weight: bold;
+    font-size: 15px;
+    margin-bottom: 0px;
+}
+
+.questionlist i{
+    padding-right: 20px;
+}
+
+.questiondesc{
+    padding-left: 38px;
+    margin-top: 5px;
+    color: silver;
+}
+
+
+
+                /* rightside */
+.result{
+    width: 680px;
+    margin-left: 10px;
+}
+.card{
+    margin-top: 15px;
+    background-color: white;
+    width: 680px;
+    margin-left: 10px;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 10px;
+}
+.cardleft{
+    display: flex;
+    border-right: 1px solid whitesmoke;
+    padding-right: 85px;
+}
+
+.cardPic img{
+    width: 120px;
+    height: 90px;
+    border: 1px solid black;
+    border-radius: 10px;
+    margin: 12px 12px;
+}
+
+.cardDesc h4{
+    margin-top: 12px;
+    margin-bottom: 0px;
+}
+
+.cardDesc p{
+    margin-top: 2px;
+    margin-bottom: 0px;
+    padding-bottom: 7px;
+}
+.cardDesc i{
+    margin-right: 5px;
+}
+.cardDesc .star{
+    color: gold;
+}
+
+
+.cardright{
+    padding-right: 15px;
+    margin-top: 12px;
+}
+
+.cardright p{
+    color: silver;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.cardright h3{
+    color: red;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.cardright button{
+    margin-top: 7px;
+    margin-bottom: 12px;
+    padding: 6px 36px;
+    background-color: #37637b;
+    border-radius: 5px;
+    color: white;
+}
+
+.cardright button:hover{
+    background-color: #233e4b;
+}
+
+            /* Footer */
+
+.footerTop{
+    background-color: white;
+    margin-top: 12px;
+    display: Flex;
+    justify-content: center;
+    padding-top: 20px;
+}
+.footerlogo img{
+    width: auto;
+    height: 50px;
+    padding: 15px 15px;
+}
+
+.footermenu{
+    display: flex;
+}
+
+.footermenu p{
+    margin-left: 55px;
+}
+
+ul{
+    padding-left: 54px;
+}
+
+li{
+    list-style: none;
+    margin-left: 0px;
+    margin-bottom: 8px;
+    width: 135px;
+}
+
+li a{
+    text-decoration: none;
+    color: silver;
+}
+
+.newslater{
+margin-left: 20px;
+width: 236px;
+}
+
+.newslater span{
+    color: silver;
+}
+
+.newslater button{
+    margin-top: 15px;
+    margin-bottom: 10px;
+    padding: 6px 92px;
+    background-color: #37637b;
+    border-radius: 5px;
+    color: white;
+}
+
+.newslater button:hover{
+    background-color: #233e4b;
+}
+.newslater p{
+    margin-left: 0px;
+}
+
+.newslater .iconSosmed{
+    padding-left: 60px;
+}
+
+.newslater .iconSosmed i{
+    padding-left: 10px;
+    color: silver;
+}
+
+.footerBottom{
+    text-align: center;
+    color: silver;
+    background-color: white;
+    padding: 12px 12px;
+    border-top: 1px solid silver;
+}
